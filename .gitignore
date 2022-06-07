@@ -1,0 +1,30 @@
+.DS_Store
+.idea/*
+
+# handbag image data
+images/
+
+# jupyter checkpoints
+.ipynb_checkpoints/
+
+# model ckpt file
+training/model.ckpt.*
+training/model.ckpt-*
+
+# data record file (upload source error)
+data/*.record
+
+# training file
+training/checkpoint
+training/events.*
+training/graph.*
+training/eval_0
+
+# output_file
+*_output/
+
+# reference file coco
+*_coco_*/
+
+# utils
+utils/
